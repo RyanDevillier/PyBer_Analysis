@@ -1,1 +1,18 @@
 # PyBer_Analysis
+
+## Overview of Analysis
+The purpose of this analysis was to use Python and its appropriate libraries to generate a dataframe that consists of ridesharing data for PyBer, a ridesharing app company.  This summary dataframe was produced from two .csv files (ride_data.csv and city_data.csv) given to us by PyBer.  The ridesharing data is categorized based on city type (with there being three distinct city types: rural, suburban, and urban).    Once our initial summary dataframe was created, we switched our attention towards producing a multiple-line chart that displays the total fares that passengers paid per city type.  Once this visualization was produced, we conclude by stating the results of our analysis, as well as several business recommendations for PyBer that could be inferred from our results.
+
+
+## Results
+The following is a screenshot of the formatted summary dataframe we produced using the ride_data.csv and city_data.csv files given to us. 
+![2022-11-23](https://user-images.githubusercontent.com/115128743/203636037-148d0253-9559-4020-8527-849b273cfb7f.png)
+
+The general trend from our dataframe is that the less populated cities (rural, suburban) are more expensive per ride and per driver, because, unsurprisingly, less populated cities have significantly fewer rides and drivers.  We can gather that the average fare per ride and the average fare per driver is high in rural and suburban areas because PyBer drivers would presumably have to travel longer distances to both pick up passengers and bring these passengers to their desired destinations, given that rural and suburban areas are not densely populated.  Given the relatively sparse distribution of people in rural and suburban cities, urban cities consistently make more money since there is much more of a need for PyBer services.  This is also what our multiple-line chart states visually: 
+![2022-11-23 (1)](https://user-images.githubusercontent.com/115128743/203636288-b12f25a4-007a-4083-9e0b-39ad389e6100.png)
+
+As we can see, the line representing the total fare paid by passengers for the urban cities is consistently above both the suburban and rural cities.
+
+
+## Summary and Recommendations
+We saw above that the urban cities yield the most revenue for PyBer, and the less populated the region, the less need for PyBer services.  From PyBer’s perspective, it would be beneficial to look into finding ways to increase the need for their services in these less populated areas.  One way PyBer could increase the need for their services is to advertise at local events.  Given that these areas are sparsely populated, many people may not know that PyBer is an option for transport.  In addition to this, it could also be beneficial to sponsor local events in these areas, as this could potentially draw in more attendance, and more attendance at events means more potential need for Pyber services.  PyBer could also consider advertising specifically to entice more people to become drivers in these areas.  Also, though a potentially more complicated solution, since we do not know if this is the current structure of how PyBer drivers are paid, it may be more beneficial for drivers to be allowed to set their own rates, as the average fare per ride and average fare per driver could be relatively high due to a lack of competition amongst PyBer drivers, and less competition would allow for PyBer drivers to charge higher prices without the fear of being undercut by another PyBer driver in the same area.  Allowing competition amongst the PyBer drivers would eventually drive the rates down, which would make people more likely to use their services for transport. 
